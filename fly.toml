@@ -7,6 +7,10 @@ app = 'bolt-diy-dfce0w'
 primary_region = 'ams'
 
 [build]
+
+[processes]
+  app = "pnpm run dev"
+  
 [http_service]
   internal_port = 8080
   force_https = true
