@@ -1,16 +1,15 @@
-# fly.toml app configuration file generated for bolt-diy-dfce0w on 2026-11-17T18:40:56Z
+# fly.toml app configuration file generated for bolt-diy-ylwmjq on 2026-11-17T19:05:26Z
 #
 # See https://docs.fly.io/reference/configuration for information about how to use this file.
 #
 
-app = 'bolt-diy-dfce0w'
+app = 'bolt-diy-ylwmjq'
 primary_region = 'ams'
 
 [build]
-
 [processes]
-  app = "pnpm run dev"
-  
+  app = 'pnpm run dev'
+
 [http_service]
   internal_port = 8080
   force_https = true
